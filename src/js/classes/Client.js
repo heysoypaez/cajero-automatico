@@ -1,16 +1,22 @@
-class cliente
-{
-	constructor (n, s)
-	{
-		this.nombre = n;
-		this.saldoEnCajas = s;
-	}
+/**
+* Client Class 
+* @class
+* @example
+* new Client("Pedro", 1000);
+* @todo associate this Class with the application
+*
+*/
+class Client {
+	/**
+	* @param {String} name   name of the client
+	* @param {Number} balance   money in account of the client
+	*/
+  constructor(name, balance) {
+    this.name = name;
+    this.balance = balance;
+  }
 
-	entregarDinero ()
-	{
-		alert("que pasaaa");
-	}
+  showBalance() {
+
+  }
 }
-
-pedro = new cliente ("Pedro", 500);
-console.log ("El es " + pedro.nombre)

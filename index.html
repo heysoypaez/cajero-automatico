@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Cajero ATM</title>
-	<link rel="stylesheet" type="text/css" href="estilos.css">
-	<charset = "UTF-8"/>
-</head>
-<body>
-
-	<div>
-		<img src="cajero.webp" id="cajero">
-	</div>
-	<p id="inbox-dinero-usuario" >
-		<input type="number" id="dineroPedido">
-		<input type="button" value="Give Me the money" id="botonDinero">
-
-	</p>
-	<p id="resultado">
-		
-	</p>
-
-<!-- <script type="text/javascript" src="billete.js"></script>
-<script type="text/javascript" src="cliente.js"></script> -->
-<script type="text/javascript" src="acciones.js"></script>
-</body>
+  <head>
+    <title>Cajero ATM</title>
+    <link rel="stylesheet" type="text/css" href="src/css/index.css" />
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <main>
+      <section class="input-zone">
+        <div>
+          <img src="src/img/cajero.webp" id="cajero" />
+        </div>
+        <p id="inbox-dinero-usuario">
+          <input type="number" id="moneyAsked" />
+          <input type="button" value="Give Me the money" id="buttonAskForMoney" />
+        </p>
+      </section>
+      <section class="results">
+        <p id="resultado"></p>
+      </section>
+    </main>
+    <script type="text/javascript" src="dist/js/home.js"></script>
+  </body>
 </html>
